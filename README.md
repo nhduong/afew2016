@@ -10,3 +10,6 @@ Student: Nguyen Hai Duong (nhduong_3010@live.com)
 4. Python 2.7
 ### How to use
 ### Evaluation
+
+Backup at
+M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
