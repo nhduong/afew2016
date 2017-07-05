@@ -3,7 +3,7 @@ Nguyen Hai Duong (nhduong_3010@live.com)
 Chonnam National University  
   
   
-Note that:
+##
 - In Windows 7, type `cd /d path` to change working directory
 - In Windows 10, type `cd path` instead
 
