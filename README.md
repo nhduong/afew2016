@@ -4,8 +4,9 @@ Prof. Kim Soo Hyung
 Student: Nguyen Hai Duong (nhduong_3010@live.com)
 
 ### Requirements
-1. Ubuntu 14.04
-2. TensorFlow 1.x
-3. Python 2.7
+1. Windows 10 x64
+2. Caffe
+3. numpy, imageio (call pip install imageio, and conda install ffmpeg -c conda-forg as admin), etc
+4. Python 2.7
 ### How to use
 ### Evaluation
