@@ -1,6 +1,11 @@
 # EmotiW 2016: Facial Expression Recognition in the Wild
 Nguyen Hai Duong (nhduong_3010@live.com)  
-Chonnam National University
+Chonnam National University  
+  
+  
+Note that:
+- In Windows 7, type `cd /d path` to change working directory
+- In Windows 10, type `cd path` instead
 
 ## Requirements
 1. Windows 7/10 Pro x64
@@ -47,7 +52,7 @@ set CONDA_ROOT=C:\Miniconda35-x64 ---> set CONDA_ROOT=C:\Program Files\Anaconda3
 1. Open cmd as administrator again
 2. Enter `pip install imageio`, and `conda install ffmpeg -c conda-forg`
 ## Usage
-1. Download all file from this repo and store them in a specific path (called `EMO`)
+1. Download all files from this repo and store them in a specific path (called `EMO`)
 2. Download trained model `fer2013_weights.h5` from `\\168.131.152.92\emotion\Duong` and save it to `EMO`
 3. Create `model` folder in `EMO`, download `\\168.131.152.92\emotion\Duong\model.rar` and extract all files in this archive to `EMO\model`
 4. Download testing video `\\168.131.152.92\emotion\Duong\004004880.avi.mp4` and save it to `EMO`
