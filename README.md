@@ -46,7 +46,13 @@ set CONDA_ROOT=C:\Miniconda35-x64 ---> set CONDA_ROOT=C:\Program Files\Anaconda3
 ### Install some libraries
 1. Open cmd as administrator again
 2. Enter `pip install imageio`, and `conda install ffmpeg -c conda-forg`
-## Evaluation
+## Usage
+1. Download all file from this repo and store them in a specific path (called `EMO`)
+2. Download trained model `fer2013_weights.h5` from `\\168.131.152.92\emotion\Duong` and save it to `EMO`
+3. Create `model` folder in `EMO`, download `\\168.131.152.92\emotion\Duong\model.rar` and extract all files in this archive to `EMO\model`
+4. Download testing video `\\168.131.152.92\emotion\Duong\004004880.avi.mp4` and save it to `EMO`
+5. Open cmd, type `cd /d EMO`
+6. Enter `jupyter notebook` to run Jupyter IDE
+7. Open `demo.ipynb`, and `Run All Cell` (Cell > Run All Cell)
 
-Backup at
-M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
+* Backup M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
