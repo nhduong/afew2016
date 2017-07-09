@@ -1,7 +1,8 @@
 import os
 import shutil
 
-PATH = 'E:/EmotiW2017/Train_AFEW'
+# PATH = 'E:/EmotiW2017/Train_AFEW'
+PATH = 'E:/EmotiW2017/Val_AFEW'
 print('> managing jpg files....')
 num_of_files = 0
 
