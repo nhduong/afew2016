@@ -19,4 +19,4 @@ for d in os.listdir('./'):
 
                 num_of_files += 1
 
-print(num_of_files + ' files found.')
+print(str(num_of_files) + ' files found.')
