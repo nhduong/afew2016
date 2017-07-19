@@ -25,7 +25,7 @@ Chonnam National University
 4. Enter `activate tensorflow`
 5. Enter `pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/windows/gpu/tensorflow_gpu-1.1.0-cp35-cp35m-win_amd64.whl`
 6. Validate installation by entering `python -c "import tensorflow as tf; print(tf.__version__)"`
-### Install OpenCV with with Anaconda support
+### Install OpenCV with Anaconda support
 1. Enter `conda install -c https://conda.binstar.org/menpo opencv3`
 2. Validate installation by entering `python -c "import cv2; print(cv2.__version__)"`
 ## Usage
