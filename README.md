@@ -38,7 +38,11 @@ Chonnam National University
 ![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg)
 ---
 2. (*Skip this step in case you've already downloaded images from option 1*) Manually extract face images:
-- Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to `PATH`
+- Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to a folder, such as D:\AFEW2017
+- Download video converter from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\avi_to_mp4.py` and save it in `D:\AFEW2017\Train_AFEW` and `D:\AFEW2017\Val_AFEW`
+- Open cmd:
+  - Type `cd /d D:\AFEW2017\Train_AFEW`, and enter `python avi_to_mp4.py`
+  - Type `cd /d D:\AFEW2017\Val_AFEW`, and enter `python avi_to_mp4.py`
 - Install mxnet
   - Download `prebuildbase_win10_x64_vc14.7z` and `20170718_mxnet_x64_vc14_gpu.7z` from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet`
   - Extract `prebuildbase_win10_x64_vc14.7z` to a folder, such as D:\mxnet
