@@ -36,6 +36,8 @@ Chonnam National University
 <p align="center">
 	<img src="https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/aligned.jpg">
 </p>  
+  
+  
 ---
 `afew2017_aligned_extracted_faces_cascade_cnn.rar` contains `UNALIGNED` face images  
 <p align="center">
