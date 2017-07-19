@@ -40,8 +40,14 @@ Chonnam National University
 2. (Option 2) Manually extract face images:
 - Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to `PATH`
 - Install mxnet
-  - Download `prebuildbase_win10_x64_vc14.7z` and `` from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet`
-  - asd
+  - Download `prebuildbase_win10_x64_vc14.7z` and `20170718_mxnet_x64_vc14_gpu.7z` from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet`
+  - Extract `prebuildbase_win10_x64_vc14.7z` to a folder, such as D:\mxnet
+  - Extract and overwrite `20170718_mxnet_x64_vc14_gpu.7z` to the above folder
+  - Run `setupenv.cmd` as Administrator
+  - Open `cmd` as Administrator
+  - Type `cd /d D:\mxnet\python`
+  - Enter `python setup.py install`
+  - Press `python -c "import mxnet; print(mxnet.__version__)"` to validate installation
 ### Run CNN-LSTM source code
 1. 
 
