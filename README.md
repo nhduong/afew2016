@@ -37,7 +37,7 @@ Chonnam National University
 </p>
 - afew2017_aligned_extracted_faces_cascade_cnn.rar contains UNALIGNED face images  
 <p align="center">
-	<img src="https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned..jpg">
+	<img src="https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg">
 </p>
 1. Download all files from this repo and store them in a specific path (called `EMO`)
 2. Download trained model `fer2013_weights.h5` from `\\168.131.152.92\emotion\Duong` and save it to `EMO`
