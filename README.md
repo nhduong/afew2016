@@ -32,10 +32,13 @@ Chonnam National University
 ### Face extraction (2 options)
 1. Download extracted face images from \\168.131.152.92\emotion\Duong\AFEW_7_2017\face_images
 - afew2017_aligned_extracted_faces_cascade_cnn.rar contains ALIGNED face images  
-->![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/aligned.jpg)<-
+<p align="center">
+![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/aligned.jpg)
+</p>
 - afew2017_aligned_extracted_faces_cascade_cnn.rar contains UNALIGNED face images  
-->![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg)<-
-Download afew2017 data
+<p align="center">
+![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg)<-
+</p>
 1. Download all files from this repo and store them in a specific path (called `EMO`)
 2. Download trained model `fer2013_weights.h5` from `\\168.131.152.92\emotion\Duong` and save it to `EMO`
 3. Create `model` folder in `EMO`, download `\\168.131.152.92\emotion\Duong\model.rar` and extract all files in this archive to `EMO\model`
