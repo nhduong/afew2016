@@ -30,7 +30,7 @@ Chonnam National University
 2. Validate installation by entering `python -c "import cv2; print(cv2.__version__)"`
 ## Usage
 ### Face extraction (2 options)
-1. (**Recommended**) Download and extract **already extracted** face images from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\face_images` to `PATH` (D:\AFEW2017 for example)
+1. (**Recommended**) Download and extract **already extracted** face images from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\face_images` to a folder (D:\AFEW2017 for example)
 ---
 - `afew2017_aligned_extracted_faces_cascade_cnn.rar` contains `ALIGNED` face images:  
 ![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/aligned.jpg)
