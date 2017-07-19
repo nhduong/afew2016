@@ -14,7 +14,7 @@ Chonnam National University
 4. CUDA 8.0
 5. cuDNN v5
 6. OpenCV
-7. Libraries: natsort, pydot, sklearn, libplotmat (using `pip install ...`), and [graphviz](http://www.graphviz.org/Download_windows.php)
+7. Libraries: natsort, pydot, sklearn, libplotmat (using `pip install ...`), and [graphviz](http://www.graphviz.org/Download_windows.php) (after installation, add `C:\Program Files (x86)\Graphviz2.38\bin` to `SYSTEM PATH`!)
 ## Installation
 ### Install CUDA 8.0, cuDNN v5, and NVIDIA driver
 ### Download and install [Anaconda 4.2 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
