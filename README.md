@@ -50,18 +50,22 @@ Chonnam National University
   - Press `python -c "import mxnet; print(mxnet.__version__)"` to validate installation
 - Download `mtcnn_detector.py`, and `afew2017_face_extraction_from_mp4s.ipynb` from this repo and save them in a folder (called `E2017`)
 - Download Cascade CNN model from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet\cascade_cnn.rar` and extract all the contents into `E2017\model`
-- Open cmd, type `cd /d EMO`
+- Open cmd, type `cd /d E2017`
 - Enter `jupyter notebook` to run Jupyter IDE
+- Open `afew2017_face_extraction_from_mp4s.ipynb`
 - Modify `PATH = 'E:/EmotiW2017/Val_AFEW/' + video_path`, and `PATH2 = 'E:/EmotiW2017/lstm/Val_AFEW/' + video_path` based on the extracted AFEW2017 dataset path on your computer
-- Open `afew2017_face_extraction_from_mp4s.ipynb`, and `Run All Cell` (Cell > Run All Cell)
+- `Run All Cell` (Cell > Run All Cell)
 - Change `Val_AFEW` to `Train_AFEW` in `PATH` and `PATH2`. Run all cell again to extract faces from the training set  
   
 Note that: the extracted images will be saved in `PATH2`
 ### Run CNN-LSTM source code
-1. 
-
-5. Open cmd, type `cd /d EMO`
-6. Enter `jupyter notebook` to run Jupyter IDE
-7. Open `demo.ipynb`, and `Run All Cell` (Cell > Run All Cell)
+1. Download `afew2017_cnn_lstm_with_data_processing.ipynb` from this repo and save it to a folder (called `E2017`)
+2. Open cmd, type `cd /d E2017`
+3. Enter `jupyter notebook` to run Jupyter IDE
+4. Open `afew2017_cnn_lstm_with_data_processing.ipynb`
+5. The training results are already done in `In [56]`-`In [59]`
+5. In order to retrain:
+  - modify `PATH = 'E:/EmotiW2017/lstm/original/Train_AFEW'`, and `PATH = 'E:/EmotiW2017/lstm/original/Val_AFEW'` based on the extracted face images path on your computer
+  - `Run All Cell` (Cell > Run All Cell)
 
 * Backup M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
