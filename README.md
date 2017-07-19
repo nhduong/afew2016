@@ -30,14 +30,14 @@ Chonnam National University
 2. Validate installation by entering `python -c "import cv2; print(cv2.__version__)"`
 ## Usage
 ### Face extraction (2 options)
-1. Download and extract face images from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\face_images` to `PATH` (D:\AFEW2017 for example)
+1. (**Recommended**) Download and extract **already extracted** face images from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\face_images` to `PATH` (D:\AFEW2017 for example)
 ---
 - `afew2017_aligned_extracted_faces_cascade_cnn.rar` contains `ALIGNED` face images:  
 ![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/aligned.jpg)
 - `afew2017_aligned_extracted_faces_cascade_cnn.rar` contains `UNALIGNED` face images:  
 ![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg)
 ---
-2. (Option 2) Manually extract face images:
+2. (*Skip this step in case you've already downloaded images from option 1*) Manually extract face images:
 - Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to `PATH`
 - Install mxnet
   - Download `prebuildbase_win10_x64_vc14.7z` and `20170718_mxnet_x64_vc14_gpu.7z` from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet`
