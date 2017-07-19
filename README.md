@@ -64,8 +64,9 @@ Note that: the extracted images will be saved in `PATH2`
 3. Enter `jupyter notebook` to run Jupyter IDE
 4. Open `afew2017_cnn_lstm_with_data_processing.ipynb`
 5. The training results are already done in `In [56]`-`In [59]`
-5. In order to retrain:
-  - modify `PATH = 'E:/EmotiW2017/lstm/original/Train_AFEW'`, and `PATH = 'E:/EmotiW2017/lstm/original/Val_AFEW'` based on the extracted face images path on your computer
-  - `Run All Cell` (Cell > Run All Cell)
-
-* Backup M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
+6. In order to retrain:
+- modify `PATH = 'E:/EmotiW2017/lstm/original/Train_AFEW'`, and `PATH = 'E:/EmotiW2017/lstm/original/Val_AFEW'` based on the extracted face images path on your computer
+- `Run All Cell` (Cell > Run All Cell)
+  
+  
+Backup M:\CNU\EmotiW\2016\Face_detection\caffe_python_mtcnn-master
