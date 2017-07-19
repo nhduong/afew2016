@@ -11,10 +11,10 @@ Chonnam National University
 1. Windows 7/10 Pro x64
 2. Anaconda 4.2 Python 3.5
 3. TensorFlow 1.1.0 with Keras interface
-5. CUDA 8.0
-6. cuDNN v5
-8. OpenCV
-9. Libraries: natsort, pydot, sklearn, libplotmat (using `pip install ...`), and [graphviz](http://www.graphviz.org/Download_windows.php)
+4. CUDA 8.0
+5. cuDNN v5
+6. OpenCV
+7. Libraries: natsort, pydot, sklearn, libplotmat (using `pip install ...`), and [graphviz](http://www.graphviz.org/Download_windows.php)
 ## Installation
 ### Install CUDA 8.0, cuDNN v5, and NVIDIA driver
 ### Download and install [Anaconda 4.2 with Python 3.5](https://repo.continuum.io/archive/Anaconda3-4.2.0-Windows-x86_64.exe)
@@ -37,7 +37,11 @@ Chonnam National University
 - `afew2017_aligned_extracted_faces_cascade_cnn.rar` contains `UNALIGNED` face images:  
 ![alt text](https://raw.githubusercontent.com/nhduong/afew2016/master/imgs/unaligned.jpg)
 ---
-2. (Option 2) Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to `PATH`
+2. (Option 2) Manually extract face images:
+- Download and extract original AFEW2017 dataset from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\2017_EmotiW.zip` to `PATH`
+- Install mxnet
+  - Download `prebuildbase_win10_x64_vc14.7z` and `` from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet`
+  - asd
 ### Run CNN-LSTM source code
 1. 
 
