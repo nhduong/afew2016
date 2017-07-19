@@ -48,6 +48,14 @@ Chonnam National University
   - Type `cd /d D:\mxnet\python`
   - Enter `python setup.py install`
   - Press `python -c "import mxnet; print(mxnet.__version__)"` to validate installation
+- Download `mtcnn_detector.py`, and `afew2017_face_extraction_from_mp4s.ipynb` from this repo and save them in a folder (called `E2017`)
+- Download Cascade CNN model from `\\168.131.152.92\emotion\Duong\AFEW_7_2017\mxnet\cascade_cnn.rar` and extract all the contents into `E2017\model`
+- Open cmd, type `cd /d EMO`
+- Enter `jupyter notebook` to run Jupyter IDE
+- Modify `PATH = 'E:/EmotiW2017/Val_AFEW/' + video_path`, and `PATH2 = 'E:/EmotiW2017/lstm/Val_AFEW/' + video_path` based on the extracted AFEW2017 dataset path on your computer
+- Open `afew2017_face_extraction_from_mp4s.ipynb`, and `Run All Cell` (Cell > Run All Cell)
+- Change `Val_AFEW` to `Train_AFEW` in `PATH` and `PATH2`. Run all cell again to extract faces from the training set
+Note that: the extracted images will be saved in `PATH2`
 ### Run CNN-LSTM source code
 1. 
 
