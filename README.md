@@ -1,6 +1,6 @@
 # EmotiW 2016: Facial Expression Recognition in the Wild
 Nguyen Hai Duong (nhduong_3010@live.com)  
-Chonnam National University  
+Prlab - Chonnam National University  
   
   
 ## Note that
